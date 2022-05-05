@@ -1,13 +1,15 @@
 .body {
     font-size: 14px;
     font-family: 'Open sans', sans-serif;
+    align-content: center;
+    text-align: center;
 }
 .header {
     display: none !important;
 }
 .wrap1 {
     margin: auto;
-    grid-template-columns: 170px 400px 300px 300px 230px 200px 190px;
+    grid-template-columns: 70px 300px 200px 200px 130px 100px 90px;
     border: 1px solid #b8b5bd;
     border-radius: 5px;
     background-color: white;
@@ -25,22 +27,17 @@
 .li-color1 {
     color: green;
 }
-.title {
-    align-items: center;
-}
 @media (min-width: 720px) {
     
     .header{
         display: grid !important;
-         
     }
     .wrap1 { 
         display: none;
     }
     .wrap1{
-        width: 1790px;
+        width: 1150px;
         display: grid;
-        padding: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .title{
         display: none;
