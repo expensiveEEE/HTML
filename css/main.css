@@ -1,32 +1,36 @@
 .body {
     font-size: 14px;
     font-family: 'Open sans', sans-serif;
-    align-content: center;
-    text-align: center;
+    text-align: left;
+    align-items: center;
 }
 .header {
-    display: none !important;
+    display: none !important;  
 }
 .wrap1 {
-    margin: auto;
-    grid-template-columns: 70px 300px 200px 200px 130px 100px 90px;
+    margin: 0 auto;
+    grid-template-columns: 0.7fr 3fr 2fr 2fr 1.3fr 1fr 0.9fr;
     border: 1px solid #b8b5bd;
     border-radius: 5px;
     background-color: white;
     margin-bottom: 10px;
 }
 .button {
+    width: 100%;
     color: white;
     background: #ffdb58;
     text-align: center;
     border-radius: 5px;
     border: none;
-    width: 120px;
-    height: 30px;
+    height: 40px;
 }
 .li-color1 {
     color: green;
 }
+.title {
+    padding: 20px 0;
+}
+
 @media (min-width: 720px) {
     
     .header{
@@ -36,10 +40,20 @@
         display: none;
     }
     .wrap1{
+        grid-template-columns: 70px 300px 200px 200px 130px 100px 90px;
         width: 1150px;
         display: grid;
+        padding: 10px;
     }
     .title{
         display: none;
+    }
+    .body {
+        text-align: center;
+        align-items: center;
+    }
+    .button{
+        width: 120px;
+        height: 30px;
     }
 }
