@@ -14,6 +14,7 @@
     border-radius: 5px;
     background-color: white;
     margin-bottom: 10px;
+    padding: 10px;
 }
 .button {
     width: 100%;
@@ -30,7 +31,6 @@
 .title {
     padding: 20px 0;
 }
-
 @media (min-width: 720px) {
     
     .header{
@@ -56,4 +56,5 @@
         width: 120px;
         height: 30px;
     }
+
 }
