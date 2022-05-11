@@ -17,6 +17,7 @@
     background-color: white;
     margin-bottom: 10px;
     padding: 15px;
+    width: 100%;
 }
 select {
     border: 1px solid lightgray;
@@ -53,16 +54,17 @@ li::marker {
         display: none;
     }
     .wrap1{
-        grid-template-columns: 70px 320px 100px 100px 200px 100px 90px;
-        width: 980px;
-        display: grid;
-        
+        max-width: 100%;
+        display: grid;   
     }
     .title{
         display: none;
     }
     .body {
         text-align: left;
+        padding: 0;
+        margin: 0;
+        
     }
     .button{
         width: 100%;
